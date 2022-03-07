@@ -1,0 +1,215 @@
+html body {
+    background-color: #1A1A1A;
+    margin: 0;
+}
+
+/* Navbar */
+.sitemap {
+    background-color: #131313;
+    padding-bottom: 10px;
+
+}
+
+.nav-logo {
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    color: rgb(224, 15, 15) !important;
+    /* float: left; */
+    font-weight: 700;
+    font-size: 1.5em;
+    transition: ease-in-out 500ms;
+}
+
+.nav-logo-title {
+    margin-top: 0;
+}
+
+.nav-logo:hover {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.75),
+        0 0 20px rgb(224, 15, 15);
+}
+
+.navbar-nav {
+    list-style-type: none;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.75) !important;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    /* margin-left: 4em !important; */
+    transition: ease-in-out 350ms;
+}
+
+.nav-link:hover {
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.75),
+        0 0 20px rgb(224, 15, 15),
+        0 0 50px rgb(224, 15, 15);
+
+}
+
+.nav-item {
+    margin: 5px 0px;
+}
+
+.nav-item .active {
+    color: rgb(255, 255, 255) !important;
+    /* padding: 2px; */
+    /* border-bottom: 2px solid rgb(255, 255, 255); */
+}
+
+
+.sm-icons {
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-icon {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75) !important;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.nav-icon:hover {
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.75),
+        0 0 20px rgb(224, 15, 15),
+        0 0 50px rgb(224, 15, 15);
+
+}
+
+/* Photp*/
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+#grp-img {
+    width: 1400px;
+    height: 788.375px;
+}
+
+/* Container News, Tour Video */
+main {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75) !important;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 40px;
+}
+
+/* News  */
+.news-title {
+    font-size: 2.5em;
+    margin: 25px 0px;
+}
+
+.story {
+    width: 75%;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 1em;
+}
+
+.story p {
+    margin: 0;
+}
+
+
+/* Tour  */
+.tour {
+    margin-bottom: 25px;
+}
+
+.tour-title {
+    font-size: 2.5em;
+    margin: 25px 0px;
+}
+
+.tour-ul {
+    padding-left: 0;
+}
+
+.event {
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+.event-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75) !important;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.event-link:hover {
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.75),
+        0 0 20px rgb(224, 15, 15),
+        0 0 50px rgb(224, 15, 15);
+}
+
+/* Video  */
+.video {
+    
+}
+
+/* Newsletter Logo Container  */
+
+
+.newsletter-logo {
+    color: rgba(255, 255, 255, 0.75) !important;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 40px;
+}
+
+/* Newsletter Form  */
+.newsletter-title {
+    font-size: 2.5em;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 31.5%;
+    height: 30px;
+    margin: 10px 0;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button-newsletter {
+    font-size: 1em;
+    color: white;
+    background-color: rgb(224, 15, 15);
+    border-radius: 7.5px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.logo {
+    margin-left: 0;
+}
+
+
+/* Footer */
+footer {
+    background-color: #131313;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+    padding: 10px 10px;
+}
+.contact {
+    padding-left: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: rgb(224, 15, 15) !important;
+    text-decoration: underline;
+}
