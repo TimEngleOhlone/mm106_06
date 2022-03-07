@@ -87,6 +87,7 @@ html body {
 .hero {
     display: flex;
     justify-content: center;
+    margin-top: 0;
 }
 #grp-img {
     width: 1400px;
